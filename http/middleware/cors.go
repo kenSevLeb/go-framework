@@ -1,0 +1,26 @@
+package middleware
+
+import (
+	"github.com/gin-gonic/gin"
+)
+
+// CORS 跨域中间件
+func CORS(c *gin.Context) {
+	method := c.Request.Method
+
+	// set response header
+	c.Header("Access-Control-Allow-Origin", c.Request.Header.Get("Origin"))
+	c.Header("Access-Control-Allow-Credentials", "true")
+	// 开启多语言支持的header
+	c.Header("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With, Accept-Language, Access-Token, Cookie")
+	c.Header("Access-Control-Allow-Methods", "GET,POST,PUT,PATCH,DELETE,OPTIONS")
+
+	// 默认屏蔽options和head请求
+	if method == "OPTIONS" || method == "HEAD" {
+		c.AbortWithStatus(204)
+		return
+	}
+
+	c.Next()
+
+}
