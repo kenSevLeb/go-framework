@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	"kenSevLeb/go-framework/component/i18n"
-	"kenSevLeb/go-framework/component/log"
-	"kenSevLeb/go-framework/errors"
-	"kenSevLeb/go-framework/http/response"
-	"kenSevLeb/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/component/i18n"
+	"github.com/kenSevLeb/go-framework/component/log"
+	"github.com/kenSevLeb/go-framework/errors"
+	"github.com/kenSevLeb/go-framework/http/response"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"runtime"
 )
 

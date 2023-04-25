@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"fmt"
-	"kenSevLeb/go-framework/component/auth"
-	"kenSevLeb/go-framework/http/response"
+	"github.com/kenSevLeb/go-framework/component/auth"
+	"github.com/kenSevLeb/go-framework/http/response"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"strings"

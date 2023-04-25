@@ -1,6 +1,6 @@
 package task
 
-import "kenSevLeb/go-framework/util/strings"
+import "github.com/kenSevLeb/go-framework/util/strings"
 
 // Option 任务选项接口
 type Option interface {

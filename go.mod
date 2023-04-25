@@ -1,4 +1,4 @@
-module kenSevLeb/go-framework
+module github.com/kenSevLeb/go-framework
 
 go 1.20
 

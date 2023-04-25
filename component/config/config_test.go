@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"kenSevLeb/go-framework/util/array"
+	"github.com/kenSevLeb/go-framework/util/array"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

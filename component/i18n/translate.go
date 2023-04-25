@@ -1,7 +1,7 @@
 package i18n
 
 import (
-	ko_translations "kenSevLeb/go-framework/component/i18n/ko"
+	ko_translations "github.com/kenSevLeb/go-framework/component/i18n/ko"
 	"github.com/go-playground/locales/en"
 	"github.com/go-playground/locales/ja"
 	"github.com/go-playground/locales/ko"

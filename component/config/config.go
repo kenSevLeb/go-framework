@@ -2,8 +2,8 @@ package config
 
 import (
 	"errors"
-	"kenSevLeb/go-framework/util/number"
-	"kenSevLeb/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/util/number"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"github.com/spf13/viper"
 )
 

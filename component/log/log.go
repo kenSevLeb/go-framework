@@ -1,8 +1,8 @@
 package log
 
 import (
-	"kenSevLeb/go-framework/component/trace"
-	"kenSevLeb/go-framework/util/net"
+	"github.com/kenSevLeb/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/util/net"
 	"github.com/sirupsen/logrus"
 	"io"
 	"os"

@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"kenSevLeb/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/component/trace"
 	"strings"
 )
 

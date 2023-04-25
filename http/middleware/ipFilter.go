@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"kenSevLeb/go-framework/util/set"
+	"github.com/kenSevLeb/go-framework/util/set"
 	"github.com/gin-gonic/gin"
 )
 

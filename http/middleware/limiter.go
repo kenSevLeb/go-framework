@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"kenSevLeb/go-framework/component/limiter"
-	"kenSevLeb/go-framework/http/response"
+	"github.com/kenSevLeb/go-framework/component/limiter"
+	"github.com/kenSevLeb/go-framework/http/response"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

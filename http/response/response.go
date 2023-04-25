@@ -2,8 +2,8 @@ package response
 
 import (
 	uuid "github.com/satori/go.uuid"
-	"kenSevLeb/go-framework/component/paginate"
-	"kenSevLeb/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/component/paginate"
+	"github.com/kenSevLeb/go-framework/component/trace"
 )
 
 const (

@@ -2,15 +2,15 @@ package main
 
 import (
 	"fmt"
-	"kenSevLeb/go-framework/app"
-	"kenSevLeb/go-framework/component/i18n"
-	"kenSevLeb/go-framework/component/log"
-	"kenSevLeb/go-framework/component/paginate"
-	"kenSevLeb/go-framework/errors"
-	"kenSevLeb/go-framework/http"
-	"kenSevLeb/go-framework/http/middleware"
-	"kenSevLeb/go-framework/http/response"
-	"kenSevLeb/go-framework/util/secure"
+	"github.com/kenSevLeb/go-framework/app"
+	"github.com/kenSevLeb/go-framework/component/i18n"
+	"github.com/kenSevLeb/go-framework/component/log"
+	"github.com/kenSevLeb/go-framework/component/paginate"
+	"github.com/kenSevLeb/go-framework/errors"
+	"github.com/kenSevLeb/go-framework/http"
+	"github.com/kenSevLeb/go-framework/http/middleware"
+	"github.com/kenSevLeb/go-framework/http/response"
+	"github.com/kenSevLeb/go-framework/util/secure"
 	"github.com/gin-gonic/gin"
 )
 

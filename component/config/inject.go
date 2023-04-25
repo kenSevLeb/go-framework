@@ -1,15 +1,15 @@
 package config
 
 import (
-	"kenSevLeb/go-framework/component/es"
-	"kenSevLeb/go-framework/component/i18n"
-	"kenSevLeb/go-framework/component/kafka"
-	"kenSevLeb/go-framework/component/lumberjack"
-	"kenSevLeb/go-framework/component/mongo"
-	"kenSevLeb/go-framework/component/mysql"
-	"kenSevLeb/go-framework/component/redis"
-	"kenSevLeb/go-framework/http"
-	"kenSevLeb/go-framework/rpc"
+	"github.com/kenSevLeb/go-framework/component/es"
+	"github.com/kenSevLeb/go-framework/component/i18n"
+	"github.com/kenSevLeb/go-framework/component/kafka"
+	"github.com/kenSevLeb/go-framework/component/lumberjack"
+	"github.com/kenSevLeb/go-framework/component/mongo"
+	"github.com/kenSevLeb/go-framework/component/mysql"
+	"github.com/kenSevLeb/go-framework/component/redis"
+	"github.com/kenSevLeb/go-framework/http"
+	"github.com/kenSevLeb/go-framework/rpc"
 	"go.uber.org/dig"
 	"time"
 )

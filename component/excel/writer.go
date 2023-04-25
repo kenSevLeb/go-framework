@@ -2,8 +2,8 @@ package excel
 
 import (
 	"fmt"
-	"kenSevLeb/go-framework/util/file"
-	"kenSevLeb/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/util/file"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"github.com/tealeg/xlsx"
 	"path/filepath"
 )

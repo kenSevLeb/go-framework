@@ -11,7 +11,7 @@ package trace
 
 import (
 	"fmt"
-	"kenSevLeb/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	cmap "github.com/orcaman/concurrent-map"
 	"github.com/petermattis/goid"
 )

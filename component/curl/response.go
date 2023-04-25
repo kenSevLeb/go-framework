@@ -3,8 +3,8 @@ package curl
 import (
 	"bytes"
 	"errors"
-	"kenSevLeb/go-framework/util/conv"
-	"kenSevLeb/go-framework/util/json"
+	"github.com/kenSevLeb/go-framework/util/conv"
+	"github.com/kenSevLeb/go-framework/util/json"
 	"io"
 	"net/http"
 )

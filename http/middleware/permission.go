@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"kenSevLeb/go-framework/component/rbac"
-	"kenSevLeb/go-framework/http/response"
+	"github.com/kenSevLeb/go-framework/component/rbac"
+	"github.com/kenSevLeb/go-framework/http/response"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

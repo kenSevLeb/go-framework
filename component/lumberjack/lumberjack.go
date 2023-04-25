@@ -2,9 +2,9 @@ package lumberjack
 
 import (
 	"fmt"
-	"kenSevLeb/go-framework/component/trace"
-	"kenSevLeb/go-framework/util/net"
-	"kenSevLeb/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/util/net"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"github.com/sirupsen/logrus"
 	"os"
 )

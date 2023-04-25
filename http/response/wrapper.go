@@ -2,7 +2,7 @@ package response
 
 import (
 	"github.com/gin-gonic/gin"
-	"kenSevLeb/go-framework/component/paginate"
+	"github.com/kenSevLeb/go-framework/component/paginate"
 	"reflect"
 )
 

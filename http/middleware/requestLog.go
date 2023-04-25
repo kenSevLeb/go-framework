@@ -3,10 +3,10 @@ package middleware
 import (
 	"bytes"
 	"github.com/gin-gonic/gin"
-	"kenSevLeb/go-framework/component/log"
-	"kenSevLeb/go-framework/component/trace"
-	"kenSevLeb/go-framework/util/date"
-	"kenSevLeb/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/component/log"
+	"github.com/kenSevLeb/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/util/date"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"time"
 )
 

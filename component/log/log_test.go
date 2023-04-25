@@ -1,7 +1,7 @@
 package log
 
 import (
-	"kenSevLeb/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/component/trace"
 	"testing"
 )
 
