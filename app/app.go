@@ -6,7 +6,6 @@ import (
 	"github.com/kenSevLeb/go-framework/component/curl"
 	"github.com/kenSevLeb/go-framework/component/es"
 	"github.com/kenSevLeb/go-framework/component/i18n"
-	"github.com/kenSevLeb/go-framework/component/lumberjack"
 	"github.com/kenSevLeb/go-framework/component/mongo"
 	"github.com/kenSevLeb/go-framework/component/mysql"
 	"github.com/kenSevLeb/go-framework/component/rbac"
@@ -85,11 +84,6 @@ func buildContainer() *dig.Container {
 
 	// rpc
 	if err := rpc.Inject(container); err != nil {
-		log.Fatalf("inject rpc failed: %v\n", err)
-	}
-
-	// lumberjack
-	if err := lumberjack.Inject(container); err != nil {
 		log.Fatalf("inject rpc failed: %v\n", err)
 	}
 

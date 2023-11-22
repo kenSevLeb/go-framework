@@ -71,16 +71,13 @@ func (m *task) AddFunc(spec string, job cron.FuncJob, opts ...Option) error {
 	for _, opt := range opts {
 		opt.apply(&options)
 	}
-
 	if m.Has(options.name) {
 		return nil
 	}
-
 	entryId, err := m.instance.AddFunc(spec, job)
 	if err != nil {
 		return fmt.Errorf("AddJob:[%s],%v", options.name, err)
 	}
-
 	m.entryIds.Set(options.name, entryId)
 	return nil
 }

@@ -1,4 +1,4 @@
-package lumberjack
+package log
 
 import (
 	"go.uber.org/dig"

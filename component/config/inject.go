@@ -4,7 +4,7 @@ import (
 	"github.com/kenSevLeb/go-framework/component/es"
 	"github.com/kenSevLeb/go-framework/component/i18n"
 	"github.com/kenSevLeb/go-framework/component/kafka"
-	"github.com/kenSevLeb/go-framework/component/lumberjack"
+	"github.com/kenSevLeb/go-framework/component/log"
 	"github.com/kenSevLeb/go-framework/component/mongo"
 	"github.com/kenSevLeb/go-framework/component/mysql"
 	"github.com/kenSevLeb/go-framework/component/redis"
@@ -107,8 +107,8 @@ func kafkaConfigProvider(conf *Config) *kafka.Config {
 	}
 }
 
-func lumberjackConfProvider(conf *Config) *lumberjack.Config {
-	return &lumberjack.Config{
+func lumberjackConfProvider(conf *Config) *log.Config {
+	return &log.Config{
 		Switch:     conf.GetBool("lumberjack.switch"),
 		LogPath:    conf.GetString("lumberjack.logPath"),
 		FileName:   conf.GetString("lumberjack.fileName"),

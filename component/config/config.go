@@ -2,6 +2,7 @@ package config
 
 import (
 	"errors"
+	"github.com/kenSevLeb/go-framework/component/log"
 	"github.com/kenSevLeb/go-framework/util/number"
 	"github.com/kenSevLeb/go-framework/util/strings"
 	"github.com/spf13/viper"
@@ -34,7 +35,9 @@ func (conf *Config) LoadFile(path ...string) error {
 			return err
 		}
 	}
-
+	if err := log.Init(lumberjackConfProvider(conf)); err != nil {
+		return err
+	}
 	return nil
 }
 
