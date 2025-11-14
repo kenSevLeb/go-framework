@@ -9,8 +9,7 @@
 ## 安装
 
 ```
-// go get安装
-go get github.com:kenSevLeb/go-framework
+github.com/kenSevLeb/go-framework
 ```
 
 ## 组件
