@@ -1,7 +1,7 @@
 package rbac
 
 import (
-	"git.yingxiong.com/platform/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"sync"
 
 	"github.com/casbin/casbin/v2/persist"

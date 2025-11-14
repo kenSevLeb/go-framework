@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
-	"git.yingxiong.com/platform/go-framework/component/trace"
-	"git.yingxiong.com/platform/go-framework/util/net"
+	"github.com/kenSevLeb/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/util/net"
 	"github.com/sirupsen/logrus"
 )
 

@@ -2,16 +2,18 @@
 // 通过标签的方式指定参数的校验方式，虽然性能有所损耗，但是能减少繁琐的参数判断
 // 对程序代码的可读性有极大的提升
 // Usage:
-//  	type User struct {
-//			Name string `json:"phone" binding:"required,omitempty" comment:"名称"`
-//			Age  uint   `json:"age" binding:"required,min=10" comment:"年龄"`
-//		}
+//
+//	 	type User struct {
+//				Name string `json:"phone" binding:"required,omitempty" comment:"名称"`
+//				Age  uint   `json:"age" binding:"required,min=10" comment:"年龄"`
+//			}
+//
 // 更多校验方式请查看:https://godoc.org/github.com/go-playground/validator
 package validator
 
 import (
-	"git.yingxiong.com/platform/go-framework/component/i18n"
 	"github.com/go-playground/validator/v10"
+	"github.com/kenSevLeb/go-framework/component/i18n"
 	"reflect"
 	"sync"
 )

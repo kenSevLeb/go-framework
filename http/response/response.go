@@ -1,8 +1,8 @@
 package response
 
 import (
-	"git.yingxiong.com/platform/go-framework/component/paginate"
-	"git.yingxiong.com/platform/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/component/paginate"
+	"github.com/kenSevLeb/go-framework/component/trace"
 	uuid "github.com/satori/go.uuid"
 )
 

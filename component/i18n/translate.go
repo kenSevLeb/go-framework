@@ -1,7 +1,6 @@
 package i18n
 
 import (
-	ko_translations "git.yingxiong.com/platform/go-framework/component/i18n/ko"
 	"github.com/go-playground/locales/en"
 	"github.com/go-playground/locales/ja"
 	"github.com/go-playground/locales/ko"
@@ -13,6 +12,7 @@ import (
 	ja_translations "github.com/go-playground/validator/v10/translations/ja"
 	zh_translations "github.com/go-playground/validator/v10/translations/zh"
 	zh_tw_translations "github.com/go-playground/validator/v10/translations/zh_tw"
+	ko_translations "github.com/kenSevLeb/go-framework/component/i18n/ko"
 )
 
 const (

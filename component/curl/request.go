@@ -2,7 +2,7 @@ package curl
 
 import (
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/util/bytes"
+	"github.com/kenSevLeb/go-framework/util/bytes"
 	"net/http"
 )
 

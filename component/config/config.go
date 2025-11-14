@@ -2,9 +2,9 @@ package config
 
 import (
 	"errors"
-	"git.yingxiong.com/platform/go-framework/component/log"
-	"git.yingxiong.com/platform/go-framework/util/number"
-	"git.yingxiong.com/platform/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/component/log"
+	"github.com/kenSevLeb/go-framework/util/number"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"github.com/spf13/viper"
 )
 

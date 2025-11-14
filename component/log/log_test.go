@@ -3,7 +3,7 @@ package log
 import (
 	"testing"
 
-	"git.yingxiong.com/platform/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/component/trace"
 )
 
 func TestMain(m *testing.M) {

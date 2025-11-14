@@ -2,13 +2,13 @@ package middleware
 
 import (
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/component/i18n"
-	"git.yingxiong.com/platform/go-framework/component/log"
-	"git.yingxiong.com/platform/go-framework/errors"
-	"git.yingxiong.com/platform/go-framework/http/response"
-	"git.yingxiong.com/platform/go-framework/util/strings"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
+	"github.com/kenSevLeb/go-framework/component/i18n"
+	"github.com/kenSevLeb/go-framework/component/log"
+	"github.com/kenSevLeb/go-framework/errors"
+	"github.com/kenSevLeb/go-framework/http/response"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"runtime"
 )
 

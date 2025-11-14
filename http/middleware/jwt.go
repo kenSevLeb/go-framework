@@ -2,10 +2,10 @@ package middleware
 
 import (
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/component/auth"
-	"git.yingxiong.com/platform/go-framework/http/response"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
+	"github.com/kenSevLeb/go-framework/component/auth"
+	"github.com/kenSevLeb/go-framework/http/response"
 	"strings"
 )
 

@@ -3,15 +3,15 @@ package config
 import (
 	"time"
 
-	"git.yingxiong.com/platform/go-framework/component/es"
-	"git.yingxiong.com/platform/go-framework/component/i18n"
-	"git.yingxiong.com/platform/go-framework/component/kafka"
-	"git.yingxiong.com/platform/go-framework/component/log"
-	"git.yingxiong.com/platform/go-framework/component/mongo"
-	"git.yingxiong.com/platform/go-framework/component/mysql"
-	"git.yingxiong.com/platform/go-framework/component/redis"
-	"git.yingxiong.com/platform/go-framework/http"
-	"git.yingxiong.com/platform/go-framework/rpc"
+	"github.com/kenSevLeb/go-framework/component/es"
+	"github.com/kenSevLeb/go-framework/component/i18n"
+	"github.com/kenSevLeb/go-framework/component/kafka"
+	"github.com/kenSevLeb/go-framework/component/log"
+	"github.com/kenSevLeb/go-framework/component/mongo"
+	"github.com/kenSevLeb/go-framework/component/mysql"
+	"github.com/kenSevLeb/go-framework/component/redis"
+	"github.com/kenSevLeb/go-framework/http"
+	"github.com/kenSevLeb/go-framework/rpc"
 	"go.uber.org/dig"
 )
 

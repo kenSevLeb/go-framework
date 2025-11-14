@@ -1,8 +1,8 @@
 package response
 
 import (
-	"git.yingxiong.com/platform/go-framework/component/paginate"
 	"github.com/gin-gonic/gin"
+	"github.com/kenSevLeb/go-framework/component/paginate"
 	"reflect"
 )
 

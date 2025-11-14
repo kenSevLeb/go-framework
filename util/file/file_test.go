@@ -2,7 +2,7 @@ package file
 
 import (
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/util/date"
+	"github.com/kenSevLeb/go-framework/util/date"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

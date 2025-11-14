@@ -3,7 +3,7 @@
 package paginate
 
 import (
-	"git.yingxiong.com/platform/go-framework/util/number"
+	"github.com/kenSevLeb/go-framework/util/number"
 )
 
 // Pagination 分页

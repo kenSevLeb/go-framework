@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/util/array"
+	"github.com/kenSevLeb/go-framework/util/array"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

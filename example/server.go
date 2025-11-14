@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/app"
-	"git.yingxiong.com/platform/go-framework/component/i18n"
-	"git.yingxiong.com/platform/go-framework/component/log"
-	"git.yingxiong.com/platform/go-framework/component/paginate"
-	"git.yingxiong.com/platform/go-framework/errors"
-	"git.yingxiong.com/platform/go-framework/http"
-	"git.yingxiong.com/platform/go-framework/http/middleware"
-	"git.yingxiong.com/platform/go-framework/http/response"
-	"git.yingxiong.com/platform/go-framework/util/secure"
 	"github.com/gin-gonic/gin"
+	"github.com/kenSevLeb/go-framework/app"
+	"github.com/kenSevLeb/go-framework/component/i18n"
+	"github.com/kenSevLeb/go-framework/component/log"
+	"github.com/kenSevLeb/go-framework/component/paginate"
+	"github.com/kenSevLeb/go-framework/errors"
+	"github.com/kenSevLeb/go-framework/http"
+	"github.com/kenSevLeb/go-framework/http/middleware"
+	"github.com/kenSevLeb/go-framework/http/response"
+	"github.com/kenSevLeb/go-framework/util/secure"
 )
 
 func main() {
@@ -49,4 +49,3 @@ func loadRouter(router *gin.Engine, config *http.Config, i18n *i18n.Bundle) {
 		log.Error("error", log.Content{"xx": 123})
 	})
 }
-

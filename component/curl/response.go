@@ -3,8 +3,8 @@ package curl
 import (
 	"bytes"
 	"errors"
-	"git.yingxiong.com/platform/go-framework/util/conv"
-	"git.yingxiong.com/platform/go-framework/util/json"
+	"github.com/kenSevLeb/go-framework/util/conv"
+	"github.com/kenSevLeb/go-framework/util/json"
 	"io"
 	"net/http"
 )
@@ -24,8 +24,7 @@ type response struct {
 	// 响应头
 	header http.Header
 	// 采用字节存储
-	body       []byte
-
+	body []byte
 }
 
 var (

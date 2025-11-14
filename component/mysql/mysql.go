@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/component/event"
+	"github.com/kenSevLeb/go-framework/component/event"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/plugin/dbresolver"

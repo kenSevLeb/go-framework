@@ -4,7 +4,7 @@ package conv
 import (
 	"encoding/json"
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/util/strings"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"log"
 	"reflect"
 	"strconv"

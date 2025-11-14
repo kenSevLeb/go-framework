@@ -2,11 +2,11 @@ package middleware
 
 import (
 	"bytes"
-	"git.yingxiong.com/platform/go-framework/component/log"
-	"git.yingxiong.com/platform/go-framework/component/trace"
-	"git.yingxiong.com/platform/go-framework/util/date"
-	"git.yingxiong.com/platform/go-framework/util/strings"
 	"github.com/gin-gonic/gin"
+	"github.com/kenSevLeb/go-framework/component/log"
+	"github.com/kenSevLeb/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/util/date"
+	"github.com/kenSevLeb/go-framework/util/strings"
 	"time"
 )
 

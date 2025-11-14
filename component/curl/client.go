@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/tls"
 	"fmt"
-	"git.yingxiong.com/platform/go-framework/component/trace"
+	"github.com/kenSevLeb/go-framework/component/trace"
 	"io"
 	"mime/multipart"
 	"net"
